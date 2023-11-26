@@ -10,11 +10,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "infra", "infra", "{134076F4
 		docker-compose.yml = docker-compose.yml
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telemetry.Producer", "src\Telemetry.Producer\Telemetry.Producer.csproj", "{5AF3811C-83FB-4D89-83AD-34B031692886}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2690E734-3EAA-4E65-8724-32A65A4999B6}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5AF3811C-83FB-4D89-83AD-34B031692886} = {25E185EC-F9EE-43C6-8B15-835753D546D1}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 	EndGlobalSection
 EndGlobal
