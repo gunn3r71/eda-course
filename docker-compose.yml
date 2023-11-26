@@ -1,0 +1,17 @@
+version: "3.9"
+
+services:
+  eda-rabbitmq:
+     image: "rabbitmq:3.12.9-management"
+     container_name: "eda-message-queue"
+     environment:
+       - RABBITMQ_DEFAULT_USER=lucas-eda-course
+       - RABBITMQ_DEFAULT_PASS=default_p@ss
+     ports:
+       - "5672:5672"
+       - "15672:15672"
+  
+networks:
+  default:
+    driver: bridge
+    name: eda_network
