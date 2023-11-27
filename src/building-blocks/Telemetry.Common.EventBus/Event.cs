@@ -1,6 +1,8 @@
+using MediatR;
+
 namespace Telemetry.Common.EventBus;
 
-public abstract class Event
+public abstract class Event : IRequest
 {
     protected Event()
     {

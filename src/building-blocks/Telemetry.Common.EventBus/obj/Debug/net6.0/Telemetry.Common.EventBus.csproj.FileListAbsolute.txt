@@ -1,0 +1,12 @@
+C:\Users\lucas\source\repos\EDA\src\building-blocks\Telemetry.Common.EventBus\bin\Debug\net6.0\Telemetry.Common.EventBus.deps.json
+C:\Users\lucas\source\repos\EDA\src\building-blocks\Telemetry.Common.EventBus\bin\Debug\net6.0\Telemetry.Common.EventBus.dll
+C:\Users\lucas\source\repos\EDA\src\building-blocks\Telemetry.Common.EventBus\bin\Debug\net6.0\Telemetry.Common.EventBus.pdb
+C:\Users\lucas\source\repos\EDA\src\building-blocks\Telemetry.Common.EventBus\obj\Debug\net6.0\Telemetry.Common.EventBus.csproj.AssemblyReference.cache
+C:\Users\lucas\source\repos\EDA\src\building-blocks\Telemetry.Common.EventBus\obj\Debug\net6.0\Telemetry.Common.EventBus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucas\source\repos\EDA\src\building-blocks\Telemetry.Common.EventBus\obj\Debug\net6.0\Telemetry.Common.EventBus.AssemblyInfoInputs.cache
+C:\Users\lucas\source\repos\EDA\src\building-blocks\Telemetry.Common.EventBus\obj\Debug\net6.0\Telemetry.Common.EventBus.AssemblyInfo.cs
+C:\Users\lucas\source\repos\EDA\src\building-blocks\Telemetry.Common.EventBus\obj\Debug\net6.0\Telemetry.Common.EventBus.csproj.CoreCompileInputs.cache
+C:\Users\lucas\source\repos\EDA\src\building-blocks\Telemetry.Common.EventBus\obj\Debug\net6.0\Telemetry.Common.EventBus.dll
+C:\Users\lucas\source\repos\EDA\src\building-blocks\Telemetry.Common.EventBus\obj\Debug\net6.0\refint\Telemetry.Common.EventBus.dll
+C:\Users\lucas\source\repos\EDA\src\building-blocks\Telemetry.Common.EventBus\obj\Debug\net6.0\Telemetry.Common.EventBus.pdb
+C:\Users\lucas\source\repos\EDA\src\building-blocks\Telemetry.Common.EventBus\obj\Debug\net6.0\ref\Telemetry.Common.EventBus.dll

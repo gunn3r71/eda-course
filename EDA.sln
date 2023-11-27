@@ -12,27 +12,44 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "infra", "infra", "{134076F4
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "building-blocks", "building-blocks", "{E22F4C40-8CEB-4E0B-B04A-6CCAF947FE21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telemetry.Common.EventBus", "src\building-blocks\Telemetry.Common.EventBus\Telemetry.Common.EventBus.csproj", "{E6BD52F0-1A8E-4831-8E70-3155769923F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Telemetry.Common.EventBus", "src\building-blocks\Telemetry.Common.EventBus\Telemetry.Common.EventBus.csproj", "{E6BD52F0-1A8E-4831-8E70-3155769923F9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Telemetry.Common.Events", "src\building-blocks\Telemetry.Common.Events\Telemetry.Common.Events.csproj", "{24E74335-1FC0-4778-868A-607567B0A806}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{8284074D-58BF-441D-9E29-CFDB26DE68D8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TelemetryProducer", "src\services\TelemetryProducer\TelemetryProducer.csproj", "{4CB3194F-735F-4B58-9870-C5B8138934AE}"
 EndProject
 Global
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {2690E734-3EAA-4E65-8724-32A65A4999B6}
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{E22F4C40-8CEB-4E0B-B04A-6CCAF947FE21} = {25E185EC-F9EE-43C6-8B15-835753D546D1}
-		{E6BD52F0-1A8E-4831-8E70-3155769923F9} = {E22F4C40-8CEB-4E0B-B04A-6CCAF947FE21}
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{E6BD52F0-1A8E-4831-8E70-3155769923F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E6BD52F0-1A8E-4831-8E70-3155769923F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E6BD52F0-1A8E-4831-8E70-3155769923F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E6BD52F0-1A8E-4831-8E70-3155769923F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24E74335-1FC0-4778-868A-607567B0A806}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24E74335-1FC0-4778-868A-607567B0A806}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24E74335-1FC0-4778-868A-607567B0A806}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24E74335-1FC0-4778-868A-607567B0A806}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CB3194F-735F-4B58-9870-C5B8138934AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CB3194F-735F-4B58-9870-C5B8138934AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CB3194F-735F-4B58-9870-C5B8138934AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CB3194F-735F-4B58-9870-C5B8138934AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E22F4C40-8CEB-4E0B-B04A-6CCAF947FE21} = {25E185EC-F9EE-43C6-8B15-835753D546D1}
+		{E6BD52F0-1A8E-4831-8E70-3155769923F9} = {E22F4C40-8CEB-4E0B-B04A-6CCAF947FE21}
+		{24E74335-1FC0-4778-868A-607567B0A806} = {E22F4C40-8CEB-4E0B-B04A-6CCAF947FE21}
+		{8284074D-58BF-441D-9E29-CFDB26DE68D8} = {25E185EC-F9EE-43C6-8B15-835753D546D1}
+		{4CB3194F-735F-4B58-9870-C5B8138934AE} = {8284074D-58BF-441D-9E29-CFDB26DE68D8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2690E734-3EAA-4E65-8724-32A65A4999B6}
 	EndGlobalSection
 EndGlobal

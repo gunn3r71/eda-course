@@ -1,0 +1,15 @@
+C:\Users\lucas\source\repos\EDA\src\building-blocks\Telemetry.Common.Events\bin\Debug\net6.0\Telemetry.Common.Events.deps.json
+C:\Users\lucas\source\repos\EDA\src\building-blocks\Telemetry.Common.Events\bin\Debug\net6.0\Telemetry.Common.Events.dll
+C:\Users\lucas\source\repos\EDA\src\building-blocks\Telemetry.Common.Events\bin\Debug\net6.0\Telemetry.Common.Events.pdb
+C:\Users\lucas\source\repos\EDA\src\building-blocks\Telemetry.Common.Events\bin\Debug\net6.0\Telemetry.Common.EventBus.dll
+C:\Users\lucas\source\repos\EDA\src\building-blocks\Telemetry.Common.Events\bin\Debug\net6.0\Telemetry.Common.EventBus.pdb
+C:\Users\lucas\source\repos\EDA\src\building-blocks\Telemetry.Common.Events\obj\Debug\net6.0\Telemetry.Common.Events.csproj.AssemblyReference.cache
+C:\Users\lucas\source\repos\EDA\src\building-blocks\Telemetry.Common.Events\obj\Debug\net6.0\Telemetry.Common.Events.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucas\source\repos\EDA\src\building-blocks\Telemetry.Common.Events\obj\Debug\net6.0\Telemetry.Common.Events.AssemblyInfoInputs.cache
+C:\Users\lucas\source\repos\EDA\src\building-blocks\Telemetry.Common.Events\obj\Debug\net6.0\Telemetry.Common.Events.AssemblyInfo.cs
+C:\Users\lucas\source\repos\EDA\src\building-blocks\Telemetry.Common.Events\obj\Debug\net6.0\Telemetry.Common.Events.csproj.CoreCompileInputs.cache
+C:\Users\lucas\source\repos\EDA\src\building-blocks\Telemetry.Common.Events\obj\Debug\net6.0\Telemetry.Common.Events.csproj.CopyComplete
+C:\Users\lucas\source\repos\EDA\src\building-blocks\Telemetry.Common.Events\obj\Debug\net6.0\Telemetry.Common.Events.dll
+C:\Users\lucas\source\repos\EDA\src\building-blocks\Telemetry.Common.Events\obj\Debug\net6.0\refint\Telemetry.Common.Events.dll
+C:\Users\lucas\source\repos\EDA\src\building-blocks\Telemetry.Common.Events\obj\Debug\net6.0\Telemetry.Common.Events.pdb
+C:\Users\lucas\source\repos\EDA\src\building-blocks\Telemetry.Common.Events\obj\Debug\net6.0\ref\Telemetry.Common.Events.dll

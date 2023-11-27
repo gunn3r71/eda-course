@@ -54,6 +54,8 @@ public class EventDispatcher : IEventDispatcher
     private void DeclareQueue(IModel model, string name)
     {
         model?.QueueDeclare(queue: name,
+                            true,
+                            true,
                             autoDelete: false);
     }
 }

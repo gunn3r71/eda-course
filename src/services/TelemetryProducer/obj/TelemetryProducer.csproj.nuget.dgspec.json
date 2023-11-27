@@ -1,0 +1,202 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\lucas\\source\\repos\\EDA\\src\\services\\TelemetryProducer\\TelemetryProducer.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\lucas\\source\\repos\\EDA\\src\\building-blocks\\Telemetry.Common.EventBus\\Telemetry.Common.EventBus.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lucas\\source\\repos\\EDA\\src\\building-blocks\\Telemetry.Common.EventBus\\Telemetry.Common.EventBus.csproj",
+        "projectName": "Telemetry.Common.EventBus",
+        "projectPath": "C:\\Users\\lucas\\source\\repos\\EDA\\src\\building-blocks\\Telemetry.Common.EventBus\\Telemetry.Common.EventBus.csproj",
+        "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lucas\\source\\repos\\EDA\\src\\building-blocks\\Telemetry.Common.EventBus\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\lucas\\source\\repos\\EDA\\src\\building-blocks\\Telemetry.Common.Events\\Telemetry.Common.Events.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lucas\\source\\repos\\EDA\\src\\building-blocks\\Telemetry.Common.Events\\Telemetry.Common.Events.csproj",
+        "projectName": "Telemetry.Common.Events",
+        "projectPath": "C:\\Users\\lucas\\source\\repos\\EDA\\src\\building-blocks\\Telemetry.Common.Events\\Telemetry.Common.Events.csproj",
+        "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lucas\\source\\repos\\EDA\\src\\building-blocks\\Telemetry.Common.Events\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\lucas\\source\\repos\\EDA\\src\\building-blocks\\Telemetry.Common.EventBus\\Telemetry.Common.EventBus.csproj": {
+                "projectPath": "C:\\Users\\lucas\\source\\repos\\EDA\\src\\building-blocks\\Telemetry.Common.EventBus\\Telemetry.Common.EventBus.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\lucas\\source\\repos\\EDA\\src\\services\\TelemetryProducer\\TelemetryProducer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lucas\\source\\repos\\EDA\\src\\services\\TelemetryProducer\\TelemetryProducer.csproj",
+        "projectName": "TelemetryProducer",
+        "projectPath": "C:\\Users\\lucas\\source\\repos\\EDA\\src\\services\\TelemetryProducer\\TelemetryProducer.csproj",
+        "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lucas\\source\\repos\\EDA\\src\\services\\TelemetryProducer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\lucas\\source\\repos\\EDA\\src\\building-blocks\\Telemetry.Common.EventBus\\Telemetry.Common.EventBus.csproj": {
+                "projectPath": "C:\\Users\\lucas\\source\\repos\\EDA\\src\\building-blocks\\Telemetry.Common.EventBus\\Telemetry.Common.EventBus.csproj"
+              },
+              "C:\\Users\\lucas\\source\\repos\\EDA\\src\\building-blocks\\Telemetry.Common.Events\\Telemetry.Common.Events.csproj": {
+                "projectPath": "C:\\Users\\lucas\\source\\repos\\EDA\\src\\building-blocks\\Telemetry.Common.Events\\Telemetry.Common.Events.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
