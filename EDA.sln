@@ -18,7 +18,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Telemetry.Common.Events", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{8284074D-58BF-441D-9E29-CFDB26DE68D8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TelemetryProducer", "src\services\TelemetryProducer\TelemetryProducer.csproj", "{4CB3194F-735F-4B58-9870-C5B8138934AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Telemetry.Producer", "src\services\Telemetry.Producer\Telemetry.Producer.csproj", "{4CB3194F-735F-4B58-9870-C5B8138934AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telemetry.Consumer", "src\services\Telemetry.Consumer\Telemetry.Consumer.csproj", "{7FE568DC-EB11-4F52-BF56-B2601A5590EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,6 +40,10 @@ Global
 		{4CB3194F-735F-4B58-9870-C5B8138934AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CB3194F-735F-4B58-9870-C5B8138934AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CB3194F-735F-4B58-9870-C5B8138934AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FE568DC-EB11-4F52-BF56-B2601A5590EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FE568DC-EB11-4F52-BF56-B2601A5590EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FE568DC-EB11-4F52-BF56-B2601A5590EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FE568DC-EB11-4F52-BF56-B2601A5590EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +54,7 @@ Global
 		{24E74335-1FC0-4778-868A-607567B0A806} = {E22F4C40-8CEB-4E0B-B04A-6CCAF947FE21}
 		{8284074D-58BF-441D-9E29-CFDB26DE68D8} = {25E185EC-F9EE-43C6-8B15-835753D546D1}
 		{4CB3194F-735F-4B58-9870-C5B8138934AE} = {8284074D-58BF-441D-9E29-CFDB26DE68D8}
+		{7FE568DC-EB11-4F52-BF56-B2601A5590EA} = {8284074D-58BF-441D-9E29-CFDB26DE68D8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2690E734-3EAA-4E65-8724-32A65A4999B6}

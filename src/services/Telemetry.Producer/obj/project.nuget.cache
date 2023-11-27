@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ndh6+MPQH0iiACd7nWSdj7Xz0WJJFxeVMYS9S3Koup9IjCtl/YX7eUqnRUMGO5axe6WADXN2puklhk4xsf6iQQ==",
+  "dgSpecHash": "SsuwxC2fWb5kr68GrGsZZAjs2A1T4n0OV0d6tuNcYZ55aKNAlz1kLvR2uvhKrKUN/eAVAylk2v5nQFAt5fA+pw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lucas\\source\\repos\\EDA\\src\\services\\TelemetryProducer\\TelemetryProducer.csproj",
+  "projectFilePath": "C:\\Users\\lucas\\source\\repos\\EDA\\src\\services\\Telemetry.Producer\\Telemetry.Producer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lucas\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",

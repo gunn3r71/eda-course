@@ -411,11 +411,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lucas\\source\\repos\\EDA\\src\\services\\TelemetryProducer\\TelemetryProducer.csproj",
-      "projectName": "TelemetryProducer",
-      "projectPath": "C:\\Users\\lucas\\source\\repos\\EDA\\src\\services\\TelemetryProducer\\TelemetryProducer.csproj",
+      "projectUniqueName": "C:\\Users\\lucas\\source\\repos\\EDA\\src\\services\\Telemetry.Producer\\Telemetry.Producer.csproj",
+      "projectName": "Telemetry.Producer",
+      "projectPath": "C:\\Users\\lucas\\source\\repos\\EDA\\src\\services\\Telemetry.Producer\\Telemetry.Producer.csproj",
       "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lucas\\source\\repos\\EDA\\src\\services\\TelemetryProducer\\obj\\",
+      "outputPath": "C:\\Users\\lucas\\source\\repos\\EDA\\src\\services\\Telemetry.Producer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
