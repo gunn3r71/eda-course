@@ -10,7 +10,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "infra", "infra", "{134076F4
 		docker-compose.yml = docker-compose.yml
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telemetry.Producer", "src\Telemetry.Producer\Telemetry.Producer.csproj", "{5AF3811C-83FB-4D89-83AD-34B031692886}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "building-blocks", "building-blocks", "{E22F4C40-8CEB-4E0B-B04A-6CCAF947FE21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telemetry.Common.EventBus", "src\building-blocks\Telemetry.Common.EventBus\Telemetry.Common.EventBus.csproj", "{E6BD52F0-1A8E-4831-8E70-3155769923F9}"
 EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
@@ -20,8 +22,17 @@ Global
 		SolutionGuid = {2690E734-3EAA-4E65-8724-32A65A4999B6}
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{5AF3811C-83FB-4D89-83AD-34B031692886} = {25E185EC-F9EE-43C6-8B15-835753D546D1}
+		{E22F4C40-8CEB-4E0B-B04A-6CCAF947FE21} = {25E185EC-F9EE-43C6-8B15-835753D546D1}
+		{E6BD52F0-1A8E-4831-8E70-3155769923F9} = {E22F4C40-8CEB-4E0B-B04A-6CCAF947FE21}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6BD52F0-1A8E-4831-8E70-3155769923F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6BD52F0-1A8E-4831-8E70-3155769923F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6BD52F0-1A8E-4831-8E70-3155769923F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6BD52F0-1A8E-4831-8E70-3155769923F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 EndGlobal
